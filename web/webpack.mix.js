@@ -1,4 +1,4 @@
-const mix = require('laravel-mix');
+const mix = require("laravel-mix");
 
 /*
  |--------------------------------------------------------------------------
@@ -11,5 +11,15 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css');
+// mix
+//   .js("resources/js/app.js", "public/js")
+//   .sass("resources/sass/app.scss", "public/css");
+// sassの設定参照用にコメントアウト
+
+mix
+  .browserSync({
+    proxy: "0.0.0.0:8081",
+    open: false //browserを自動で開かない設定
+  })
+  .js("resources/js/app.js", "public/js")
+  .version();
