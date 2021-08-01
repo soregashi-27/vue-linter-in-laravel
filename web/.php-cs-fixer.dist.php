@@ -24,7 +24,7 @@ return $config
             'sort_algorithm' => 'none',
         ],
         'no_superfluous_phpdoc_tags' => false,
-               'global_namespace_import' => [
+            'global_namespace_import' => [
             'import_classes' => true,
             'import_constants' => true,
             'import_functions' => true,
