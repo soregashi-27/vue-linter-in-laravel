@@ -18,6 +18,5 @@
 <body>
   <div id="app"></div>
   {{-- vueApp読み込み --}}
-  {{-- コードを読んでからpushする --}}
 </body>
 </html>
