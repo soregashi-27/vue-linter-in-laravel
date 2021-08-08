@@ -18,5 +18,6 @@
 <body>
   <div id="app"></div>
   {{-- vueApp読み込み --}}
+  <div>What I can do?...¥essir!!</div>
 </body>
 </html>
