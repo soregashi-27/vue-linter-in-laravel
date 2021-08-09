@@ -1,4 +1,4 @@
-const mix = require("laravel-mix");
+const mix = require('laravel-mix')
 
 /*
  |--------------------------------------------------------------------------
@@ -11,6 +11,22 @@ const mix = require("laravel-mix");
  |
  */
 
+if (!mix.inProduction()) {
+  mix.webpackConfig({
+    module: {
+      rules: [
+        {
+          enforce: 'pre',
+          exclude: /node_modules/,
+          loader: 'eslint-loader',
+          test: /\.(js|vue)?$/
+        }
+      ]
+    }
+  })
+}
+// ※Eslintの設定：本番環境ではESLintを使わない
+
 // mix
 //   .js("resources/js/app.js", "public/js")
 //   .sass("resources/sass/app.scss", "public/css");
@@ -18,8 +34,8 @@ const mix = require("laravel-mix");
 
 mix
   .browserSync({
-    proxy: "0.0.0.0:8081",
+    proxy: '0.0.0.0:8081',
     open: false //browserを自動で開かない設定
   })
-  .js("resources/js/app.js", "public/js")
-  .version();
+  .js('resources/js/app.js', 'public/js')
+  .version()
