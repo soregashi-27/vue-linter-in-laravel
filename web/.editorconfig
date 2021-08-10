@@ -13,4 +13,3 @@ trim_trailing_whitespace = false
 
 [*.{yml,yaml, json, scss, html, js, vue, blade.php}]
 indent_size = 2
-# フロントエンドの準備からスタート！
