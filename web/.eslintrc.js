@@ -13,7 +13,6 @@ module.exports = {
     'vue/prop-name-casing': 'off',
     'no-console': 'off',
     'no-unused-vars': 'off',
-    camelcase: 'off',
 
     'prettier/prettier': [
       'error',
