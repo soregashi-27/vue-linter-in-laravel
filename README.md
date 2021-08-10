@@ -14,7 +14,7 @@ Database コンテナへ移動
 docker compose exec vuesplash_database bash
 ```
 
-Hosting
+Hosting \
 **※Front-EndをBuildしてから行う**
 
 ```
