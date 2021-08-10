@@ -15,6 +15,7 @@ docker compose exec vuesplash_database bash
 ```
 
 Hosting
+**※Front-EndをBuildしてから行う**
 
 ```
 php artisan serve --host 0.0.0.0 --port 8081
