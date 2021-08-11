@@ -1,6 +1,8 @@
 # vue-splash
 
-Like Unsplash app.
+Like Unsplash app. \
+
+※databaseは最後にpushする（最初にpushしていないこともあり、差分が多いため）
 
 Web コンテナへ移動
 
