@@ -11,7 +11,7 @@ docker comppose exec vuesplash_web bash
 Database コンテナへ移動
 
 ```
-docker compose exec vuesplash_database bas
+docker compose exec vuesplash_database bash
 ```
 
 対象ファイルを全てコンパイル
