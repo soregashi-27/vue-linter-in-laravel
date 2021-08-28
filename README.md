@@ -1,4 +1,4 @@
-※`git pull`してからスタート！！
+Add to linter tools for Front-End in Laravel.
 
 ---------
 
