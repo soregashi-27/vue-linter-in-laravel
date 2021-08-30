@@ -1,4 +1,4 @@
-Add to linter tools for Front-End in Laravel.
+**Vue.js2系のLinter Toolの導入はこのDirectoryを参照する。**
 
 ---------
 
