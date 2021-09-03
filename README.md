@@ -7,7 +7,7 @@ https://github.com/soregashi-27/vue-linter-in-laravel/pull/8
 
 Like Unsplash app. 
 
-※databaseは最後にpushする（最初にpushしていないこともあり、差分が多いため）
+※databaseはpushしてない（最初にpushしていないこともあり、差分が多いため）
 
 Web コンテナへ移動
 
