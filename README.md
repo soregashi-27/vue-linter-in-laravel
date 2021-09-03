@@ -1,4 +1,5 @@
 **Vue.js2系のLinter Toolの導入はこのDirectoryを参照する。**
+https://github.com/soregashi-27/vue-linter-in-laravel/pull/8
 
 ---------
 
